@@ -1,7 +1,9 @@
 import itertools
 import sys
 
-out = open('out.txt', 'w')
+found = []
+
+output = open('out.txt', 'w')
 words = open("words_alpha.txt").readlines()
 dictionary = {}
 for word in words:
@@ -19,6 +21,10 @@ for L in range(1, 4):
         joined_word = "".join(subset)
         lookup = dictionary.get(joined_word)
         if (lookup):
-            toWrite = joined_word + ": " + subset.__str__() + "\n"
-            sys.stdout.write(toWrite)
-            out.write(toWrite)
+            found.append(joined_word + ": " + subset.__str__() + "\n")
+
+found = [*set(found)] # Removes Duplicates
+found.sort() # Alphabetatizes
+for toWrite in found:
+    sys.stdout.write(toWrite)
+    output.write(toWrite)
