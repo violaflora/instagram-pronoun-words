@@ -18,5 +18,4 @@ for L in range(1, 4):
         joined_word = "".join(subset)
         lookup = dictionary.get(joined_word)
         if (lookup):
-            sys.stdout.write(joined_word)
-            sys.stdout.write("\n")
+            sys.stdout.write(joined_word + ": " + subset.__str__() + "\n")
