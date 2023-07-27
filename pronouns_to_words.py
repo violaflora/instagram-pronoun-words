@@ -1,6 +1,7 @@
 import itertools
 import sys
 
+out = open('out.txt', 'w')
 words = open("words_alpha.txt").readlines()
 dictionary = {}
 for word in words:
@@ -18,4 +19,6 @@ for L in range(1, 4):
         joined_word = "".join(subset)
         lookup = dictionary.get(joined_word)
         if (lookup):
-            sys.stdout.write(joined_word + ": " + subset.__str__() + "\n")
+            toWrite = joined_word + ": " + subset.__str__() + "\n"
+            sys.stdout.write(toWrite)
+            out.write(toWrite)
