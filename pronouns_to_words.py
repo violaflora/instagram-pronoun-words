@@ -3,7 +3,6 @@ import sys
 
 found = []
 
-output = open('out.txt', 'w')
 words = open("words_alpha.txt").readlines()
 dictionary = {}
 for word in words:
@@ -27,4 +26,3 @@ found = [*set(found)] # Removes Duplicates
 found.sort() # Alphabetatizes
 for toWrite in found:
     sys.stdout.write(toWrite)
-    output.write(toWrite)
