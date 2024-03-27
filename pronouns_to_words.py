@@ -215,7 +215,7 @@ found = []
 
 #print(next(v for k, v in d.items() if 'den' in k))
 
-words = open("words_alpha.txt").readlines()
+words = open("spanish_words.txt", encoding = "ISO-8859-1").readlines()
 dictionary = {}
 for word in words:
     w = word.strip()
