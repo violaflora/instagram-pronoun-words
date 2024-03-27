@@ -14,6 +14,20 @@ Instagram allows you to put 1-4 pronouns on your profile. These are the combinat
 
 🇩🇪 [German](https://gist.githubusercontent.com/MarvinJWendt/2f4f4154b8ae218600eb091a5706b5f4/raw/36b70dd6be330aa61cd4d4cdfda6234dcb0b8784/wordlist-german.txt)
 
+🇮🇩 [Indonesian](https://raw.githubusercontent.com/fachrurRz/sentiment-analysis/master/indonesian-wordlist.txt)
+
+🇹🇷 [Turkish](https://raw.githubusercontent.com/mertemin/turkish-word-list/master/words.txt)
+
+🇳🇴 [Norwegian](https://raw.githubusercontent.com/Ondkloss/norwegian-wordlist/master/wordlist_20220201_norsk_ordbank_nno_2012.txt)
+
+🇫🇮 [Finnish](https://raw.githubusercontent.com/hugovk/everyfinnishword/master/kaikkisanat.txt)
+
+🇩🇰 [Danish](https://raw.githubusercontent.com/fraabye/Danish-wordlists/master/20200419-Danish-words.txt)
+
+🇳🇱 [Dutch]()
+
+🇸🇪 [Swedish]()
+
 ## Usage
 1. put a dictionary named 'words_alpha.txt' in the root folder, e.g., https://github.com/dwyl/english-words
 2. `python pronouns_to_words.py >> output.txt`
