@@ -6,6 +6,9 @@ Instagram allows you to put between 1-4 pronouns next to your name. I thought it
 ## Word List
 https://raw.githubusercontent.com/Paf1cent/instagram-pronoun-words/master/words_found.txt
 
+Spanish
+https://raw.githubusercontent.com/xavier-hernandez/spanish-wordlist/main/text/spanish_words.txt
+
 ## Usage
 1. put a dictionary named 'words_alpha.txt' in the root folder, e.g., https://github.com/dwyl/english-words
 2. `python pronouns_to_words.py >> output.txt`
