@@ -213,9 +213,7 @@ d = {
 
 found = []
 
-#print(next(v for k, v in d.items() if 'den' in k))
-
-words = open("spanish_words.txt", encoding = "ISO-8859-1").readlines()
+words = open("words_alpha.txt", encoding = "ISO-8859-1").readlines()
 dictionary = {}
 for word in words:
     w = word.strip()
@@ -232,6 +230,7 @@ for L in range(1, 4):
         joined_word = "".join(subset)
         lookup = dictionary.get(joined_word)
         if (lookup):
+            print(joined_word)
             found.append(joined_word + ": " + subset.__str__() + " " + tuple(d[item] for item in subset).__str__() + "\n")
 
 print(found)
