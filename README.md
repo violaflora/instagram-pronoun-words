@@ -24,9 +24,9 @@ Instagram allows you to put 1-4 pronouns on your profile. These are the combinat
 
 🇩🇰 [Danish](https://raw.githubusercontent.com/fraabye/Danish-wordlists/master/20200419-Danish-words.txt)
 
-🇳🇱 [Dutch]()
+🇳🇱 [Dutch](https://raw.githubusercontent.com/OpenTaal/opentaal-wordlist/master/wordlist.txt)
 
-🇸🇪 [Swedish]()
+🇸🇪 [Swedish](https://raw.githubusercontent.com/martinlindhe/wordlist_swedish/master/swe_wordlist)
 
 ## Usage
 1. put a dictionary named 'words_alpha.txt' in the root folder, e.g., https://github.com/dwyl/english-words
