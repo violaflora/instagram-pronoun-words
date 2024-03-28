@@ -228,7 +228,7 @@ for pronoun in raw_pronouns:
     p = pronoun.strip()
     pronouns.append(p)
 
-for L in range(1, 4):
+for L in range(1, 5):
     for subset in itertools.combinations(pronouns, L):
         joined_word = "".join(subset)
         lookup = dictionary.get(joined_word)
