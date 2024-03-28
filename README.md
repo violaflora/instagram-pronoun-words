@@ -34,6 +34,10 @@ Instagram allows you to put 1-4 pronouns on your profile. This program outputs t
 
 🇸🇪 [Swedish](https://raw.githubusercontent.com/martinlindhe/wordlist_swedish/master/swe_wordlist)
 
+🇻🇦 [Latin](https://petscan.wmflabs.org/?language=la&project=wiktionary&categories=Lingua%20Latina&ns%5B0%5D=1&sortby=title&interface_language=en&active_tab=tab_output&&doit=)
+
+[Arabic](https://raw.githubusercontent.com/loayamin/arabic-words/master/word-list.txt)
+
 ## Changes from forked project
 - [x] [pronouns.txt: Change 'faee' to 'faer', add 'faers'](https://github.com/violaflora/instagram-pronoun-words/commit/c299f0ed9770b41deb6855739c023b47597e9d4c)
 - [x] [pronouns.txt: Add 'hirs'](https://github.com/violaflora/instagram-pronoun-words/commit/4f0dba218186d33c1fc1630c87a18b39839b294c)
