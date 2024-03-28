@@ -1,6 +1,8 @@
 import itertools
 import sys
+import os
 
+# d[pronoun]: language
 d = {
     'co': 'English',
     'cos': 'English',
@@ -214,30 +216,42 @@ d = {
     'honom': 'Swedish'
 }
 
-found = []
-
-words = open("word_lists/EN.txt", encoding = "ISO-8859-1").readlines()
-dictionary = {}
-for word in words:
-    w = word.strip()
-    dictionary[w] = True
-
+# create list of pronouns once outside the loop
 raw_pronouns = open("pronouns.txt").readlines()
 pronouns = []
 for pronoun in raw_pronouns:
     p = pronoun.strip()
     pronouns.append(p)
 
-for L in range(1, 5):
-    for subset in itertools.combinations(pronouns, L):
-        joined_word = "".join(subset)
-        lookup = dictionary.get(joined_word)
-        if (lookup):
-            found.append(joined_word + ": " + subset.__str__() + " " + tuple(d[item] for item in subset).__str__() + "\n")
+for filename in os.listdir('word_lists'):
+    wordListFileName = os.path.join('word_lists', filename)
+    # checking if it is not the readme file
+    if os.path.isfile(wordListFileName) and wordListFileName != 'word_lists/readme.txt':
+        found = []
 
-print(found)
+        # encoding ensures accented characters are processed correctly
+        words = open(wordListFileName, encoding = "ISO-8859-1").readlines()
+        dictionary = {}
+        for word in words:
+            w = word.strip()
+            dictionary[w] = True
 
-found = [*set(found)] # Removes Duplicates
-found.sort() # Alphabetatizes
-for toWrite in found:
-    sys.stdout.write(toWrite)
+        # range of 1-5 ensures 4-pronoun words are found
+        for L in range(1, 5):
+            for subset in itertools.combinations(pronouns, L):
+                joined_word = "".join(subset)
+                lookup = dictionary.get(joined_word)
+                if (lookup):
+                    # word: ('pronouns', 'in', 'word') ('languages', 'of', 'pronouns')
+                    found.append(joined_word + ": " + subset.__str__() + " " + tuple(d[item] for item in subset).__str__() + "\n")
+
+        #print(found)
+
+
+        found = [*set(found)] # Removes Duplicates
+        found.sort() # Alphabetatizes
+        # grab file name after folder name
+        file = open("words_found/" + wordListFileName.split("/")[1], "w")
+        for toWrite in found:
+            file.write(toWrite)
+        file.close()

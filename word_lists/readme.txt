@@ -1,0 +1,1 @@
+Put any word lists in this folder, they will be output in words_found/ with the same file name.
