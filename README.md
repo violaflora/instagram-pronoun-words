@@ -10,33 +10,20 @@ Instagram allows you to put 1-4 pronouns on your profile. This program outputs t
 2. `python pronouns_to_words.py`
 
 ## Word Lists
-🇬🇧 [English](https://raw.githubusercontent.com/Paf1cent/instagram-pronoun-words/master/words_found.txt)
-
-🇪🇸 [Spanish](https://raw.githubusercontent.com/xavier-hernandez/spanish-wordlist/main/text/spanish_words.txt)
-
-🇵🇹 [Portuguese](https://gist.githubusercontent.com/Kasama/b75f8d57432b7e9e18e49843485d69e9/raw/c3d6b644b1ba8acd95cb4775d52d76f05e1eeee8/portuguese-word-list.txt)
-
-🇫🇷 [French](https://raw.githubusercontent.com/Taknok/French-Wordlist/master/francais.txt)
-
-🇩🇪 [German](https://gist.githubusercontent.com/MarvinJWendt/2f4f4154b8ae218600eb091a5706b5f4/raw/36b70dd6be330aa61cd4d4cdfda6234dcb0b8784/wordlist-german.txt)
-
-🇮🇩 [Indonesian](https://raw.githubusercontent.com/fachrurRz/sentiment-analysis/master/indonesian-wordlist.txt)
-
-🇹🇷 [Turkish](https://raw.githubusercontent.com/mertemin/turkish-word-list/master/words.txt)
-
-🇳🇴 [Norwegian](https://raw.githubusercontent.com/Ondkloss/norwegian-wordlist/master/wordlist_20220201_norsk_ordbank_nno_2012.txt)
-
-🇫🇮 [Finnish](https://raw.githubusercontent.com/hugovk/everyfinnishword/master/kaikkisanat.txt)
-
-🇩🇰 [Danish](https://raw.githubusercontent.com/fraabye/Danish-wordlists/master/20200419-Danish-words.txt)
-
-🇳🇱 [Dutch](https://raw.githubusercontent.com/OpenTaal/opentaal-wordlist/master/wordlist.txt)
-
-🇸🇪 [Swedish](https://raw.githubusercontent.com/martinlindhe/wordlist_swedish/master/swe_wordlist)
-
-🇻🇦 [Latin](https://petscan.wmflabs.org/?language=la&project=wiktionary&categories=Lingua%20Latina&ns%5B0%5D=1&sortby=title&interface_language=en&active_tab=tab_output&&doit=)
-
-[Arabic](https://raw.githubusercontent.com/loayamin/arabic-words/master/word-list.txt)
+- [English](https://raw.githubusercontent.com/Paf1cent/instagram-pronoun-words/master/words_found.txt)
+- [Spanish](https://raw.githubusercontent.com/xavier-hernandez/spanish-wordlist/main/text/spanish_words.txt)
+- [Portuguese](https://gist.githubusercontent.com/Kasama/b75f8d57432b7e9e18e49843485d69e9/raw/c3d6b644b1ba8acd95cb4775d52d76f05e1eeee8/portuguese-word-list.txt)
+- [French](https://raw.githubusercontent.com/Taknok/French-Wordlist/master/francais.txt)
+- [German](https://gist.githubusercontent.com/MarvinJWendt/2f4f4154b8ae218600eb091a5706b5f4/raw/36b70dd6be330aa61cd4d4cdfda6234dcb0b8784/wordlist-german.txt)
+- [Indonesian](https://raw.githubusercontent.com/fachrurRz/sentiment-analysis/master/indonesian-wordlist.txt)
+- [Turkish](https://raw.githubusercontent.com/mertemin/turkish-word-list/master/words.txt)
+- [Norwegian](https://raw.githubusercontent.com/Ondkloss/norwegian-wordlist/master/wordlist_20220201_norsk_ordbank_nno_2012.txt)
+- [Finnish](https://raw.githubusercontent.com/hugovk/everyfinnishword/master/kaikkisanat.txt)
+- [Danish](https://raw.githubusercontent.com/fraabye/Danish-wordlists/master/20200419-Danish-words.txt)
+- [Dutch](https://raw.githubusercontent.com/OpenTaal/opentaal-wordlist/master/wordlist.txt)
+- [Swedish](https://raw.githubusercontent.com/martinlindhe/wordlist_swedish/master/swe_wordlist)
+- [Latin](https://petscan.wmflabs.org/?language=la&project=wiktionary&categories=Lingua%20Latina&ns%5B0%5D=1&sortby=title&interface_language=en&active_tab=tab_output&&doit=)
+- [Arabic](https://raw.githubusercontent.com/loayamin/arabic-words/master/word-list.txt)
 
 ## Changes from forked project
 - [x] [pronouns.txt: Change 'faee' to 'faer', add 'faers'](https://github.com/violaflora/instagram-pronoun-words/commit/c299f0ed9770b41deb6855739c023b47597e9d4c)
