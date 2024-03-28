@@ -34,6 +34,14 @@ Instagram allows you to put 1-4 pronouns on your profile. This program outputs t
 
 🇸🇪 [Swedish](https://raw.githubusercontent.com/martinlindhe/wordlist_swedish/master/swe_wordlist)
 
+## Changes from forked project
+- [x] [pronouns.txt: Change 'faee' to 'faer', add 'faers'](https://github.com/violaflora/instagram-pronoun-words/commit/c299f0ed9770b41deb6855739c023b47597e9d4c)
+- [x] [pronouns.txt: Add 'hirs'](https://github.com/violaflora/instagram-pronoun-words/commit/4f0dba218186d33c1fc1630c87a18b39839b294c)
+- [x] [pronouns_to_words.py: Add support for 4-pronoun words](https://github.com/violaflora/instagram-pronoun-words/commit/c521a7d2061db0a8db27d1888962a265c3ecf785)
+- [x] [words_found/: Add folder for output file in the 12 supported Latin script languages](https://github.com/violaflora/instagram-pronoun-words/tree/master/words_found)
+- [x] [word_lists/: Add folder for input files](https://github.com/violaflora/instagram-pronoun-words/commit/86535f16d25b12c7a093fc02b0b60bc793ddddb2)
+- [x] [pronouns_to_words.py: Add logic to iterate through word_lists/](https://github.com/violaflora/instagram-pronoun-words/commit/86535f16d25b12c7a093fc02b0b60bc793ddddb2) 
+
 ## TODO
 - [ ] Look into Arabic and Farsi, see if you can add pronouns to `pronouns.txt` and run it like the rest of the languages.
 - [ ] Look into programmatic profanity/sensitive content filtering (e.g. 'nazie', 'viol', 'violer' in French).
