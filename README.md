@@ -36,3 +36,4 @@ Instagram allows you to put 1-4 pronouns on your profile. This program outputs t
 ## TODO
 - [ ] Look into Arabic and Farsi, see if you can add pronouns to `pronouns.txt` and run it like the rest of the languages.
 - [ ] Look into programmatic profanity/sensitive content filtering (e.g. 'nazie', 'viol', 'violer' in French).
+- [ ] Include languages in [pronouns.txt](pronouns.txt), use dictionary for everything (i.e. use keys as pronouns list)
